@@ -1,0 +1,252 @@
+@font-face {
+  font-family: 'SourceSansPro-Regular';
+  src: url('fonts/SourceSansPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSansPro-Bold';
+  src: url('fonts/SourceSansPro-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSansPro-It';
+  src: url('fonts/SourceSansPro-It.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SourceSansPro-BoldIt';
+  src: url('fonts/SourceSansPro-BoldIt.otf') format('opentype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SourceSansPro-Light';
+  src: url('fonts/SourceSansPro-Light.otf') format('opentype');
+  font-weight: 300; /* Light weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSansPro-LightIt';
+  src: url('fonts/SourceSansPro-LightIt.otf') format('opentype');
+  font-weight: 300; /* Light weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SourceSansPro-ExtraLight';
+  src: url('fonts/SourceSansPro-ExtraLight.otf') format('opentype');
+  font-weight: 200; /* ExtraLight weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSansPro-ExtraLightIt';
+  src: url('fonts/SourceSansPro-ExtraLightIt.otf') format('opentype');
+  font-weight: 200; /* ExtraLight weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SourceSansPro-Semibold';
+  src: url('fonts/SourceSansPro-Semibold.otf') format('opentype');
+  font-weight: 600; /* SemiBold weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSansPro-SemiboldIt';
+  src: url('fonts/SourceSansPro-SemiboldIt.otf') format('opentype');
+  font-weight: 600; /* SemiBold weight */
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'SourceSansPro-Black';
+  src: url('fonts/SourceSansPro-Black.otf') format('opentype');
+  font-weight: 900; /* Black weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SourceSansPro-BlackIt';
+  src: url('fonts/SourceSansPro-BlackIt.otf') format('opentype');
+  font-weight: 900; /* Black weight */
+  font-style: italic;
+}
+
+
+.section1{
+    background-image: url(images/headphones_hero_1.jpg);
+    height: 100vh;
+}
+
+.section1 nav{
+    display: flex;
+    flex-direction: row;
+    gap: 584px;
+}
+.section1 img{
+    margin-left: 200px;
+}
+
+.section1 ul{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    font-family: SourceSansPro-Bold;
+    font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+a:visited {
+  color: inherit; 
+}
+
+a:hover, 
+a:active {
+  color: #FF6565;
+}
+
+
+.section1 h2{
+    margin-top: 312px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: SourceSansPro-Bold;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.section1 h3{
+    margin-top: 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: SourceSansPro-Bold;
+}
+.section1 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    border-radius: 22px;
+    width: 162px;
+    height: 44px;
+    background-color: #FF6565;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+
+}
+.section1 button :hover{
+  opacity: 0.9;
+
+}
+
+.section1 p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    width: 637px;
+    font-family: 'SourceSansPro-Regular';
+}
+
+.section2 p{
+    margin-top: 190px;
+    display: flex;
+    justify-content: center;
+    font-family: SourceSansPro-Regular;
+    font-size: 16px;
+    text-align: center;
+}
+
+.image{
+    display: flex;
+    flex-direction: row;
+    margin-top: 97px;
+    justify-content: center
+}
+.image img{
+  width: 95px;
+  height: 65px;
+  margin-bottom: 62px;
+}
+.image p{
+  width: 205px;
+  margin-top: 10px;
+}
+
+.section3{
+  height: 650px;
+  background-image: url(images/headphones_hero_2.jpg);
+  background-size: cover;
+}
+.section3 p{
+  padding-top: 221px;
+  justify-self: center;
+  color: white;
+  font-family: SourceSansPro-Regular;
+  text-align: center;
+}
+.pentagons {
+    position: relative;
+    display: inline-block;
+    margin-top: 56px;
+}
+
+.pentagons img {
+    display: block; 
+    width: 190px; 
+    height: 190px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    color: white; 
+    font-size: 16px; 
+    font-family: Arial, sans-serif;
+    font-weight: bold; 
+    font-family: SourceSansPro-Bold ; 
+    font-size: 46px;
+}
+
+.text-overlay span {
+    display: block; 
+    font-size: 14px; 
+    font-weight: normal; 
+    font-family:  SourceSansPro-Regular;
+}
+.pentagon{
+  display: flex;
+  flex-direction: row;
+  gap: 76px;
+  justify-self: center;
+}

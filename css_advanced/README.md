@@ -1,0 +1,1 @@
+This is a project that showcases the styling features of css and how it can be utilized to make HTML pretty.
